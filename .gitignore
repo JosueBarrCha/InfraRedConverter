@@ -1,0 +1,11 @@
+
+# Ignore contents of input, model, and output folders
+input/*
+model/*
+output/*
+
+# But keep the folders themselves by tracking a .gitkeep in each
+!input/.gitkeep
+!model/.gitkeep
+!output/.gitkeep
+
